@@ -8,7 +8,7 @@ Interactive central void selection tool for the Fry and normalized Fry technique
 Creates an interactive Fry or normalized plot that enables a user to select the parameters of the central void.
 }
 \usage{
-FrySelect(fry.data, max.dim, out.file, normalized = FALSE)
+FrySelect(fry.data, max.dim, out.file, normalized = FALSE, select = TRUE)
 }
 
 \arguments{
@@ -23,6 +23,9 @@ Path to desired PDF file for results.
 }
   \item{normalized}{
 Logical, if TRUE, a normalized Fry plot is made.
+}
+  \item{select}{
+Logical, if TRUE, manual selection is required. If FALSE, an object of \code{\linkS4class{FRY}} will be plotted.
 }
 }
 

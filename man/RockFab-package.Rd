@@ -12,8 +12,8 @@ Provides functions to complete three-dimensional rock fabric and strain analyses
 \tabular{ll}{
 Package: \tab RockFab\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2013-11-02\cr
+Version: \tab 1.1\cr
+Date: \tab 2014-01-07\cr
 License: \tab GPL\cr
 }
 
