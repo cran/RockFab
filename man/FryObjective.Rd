@@ -10,7 +10,8 @@ squares method. The wedges are iteratively modified from the resultant ellipse t
 }
 \usage{
 FryObjective(object.data, n.pass = 15, pie.step = 12,
-expansion = 1.5, pie.pts = 1, section.name, norm = TRUE)
+expansion = 1.5, pie.pts = 1, section.name, ave.piepts = FALSE,
+norm = TRUE)
 }
 
 \arguments{
@@ -31,6 +32,9 @@ The number of nearest points to the plot origin that are selected in each wedge 
 }
   \item{section.name}{
 The name of the sectional analysis.
+}
+  \item{ave.piepts}{
+Logical, if TRUE, the coordinates of n \code{pie.pts} selected from each wedge bin are averaged prior to least squares ellipse fitting.
 }
   \item{norm}{
 Logical, if TRUE, a normalized Fry method is used.

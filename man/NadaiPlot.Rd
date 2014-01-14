@@ -29,7 +29,7 @@ Interval used between arcs of equal octahedral shear strain in plot.
 Maximum octahedral shear strain to be plotted at top of graph (used to scale the plot). Value must be an integer.
 }
   \item{plot.title}{
-Title of the plot
+Title of the plot.
 }
   \item{labs}{
 Vector of labels of length equal to the length of \code{oss} and \code{lp} to add to plot.
@@ -44,4 +44,7 @@ Nadai, A. (1963) Theory of fracture and flow of solids.
 }
 \author{
 Jeffrey R. Webber
+}
+\seealso{
+\code{\link{FlinnPlot}}
 }
