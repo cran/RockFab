@@ -23,3 +23,9 @@ export(StereoWeb)
 export(EllipAxes)
 export(FryObjective)
 export(FlinnPlot)
+
+importFrom("grDevices", "dev.new", "dev.off", "pdf")
+importFrom("graphics", "axis", "box", "layout", "lines", "locator",
+           "mtext", "par", "points", "polygon", "text", "title")
+importFrom("stats", "complete.cases")
+importFrom("utils", "read.table")
